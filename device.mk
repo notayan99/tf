@@ -27,6 +27,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     vendor/qcom/opensource/usb/etc
+    hardware/xiaomi
 
 # Flatten APEXs for performance
 OVERRIDE_TARGET_FLATTEN_APEX := true
@@ -456,12 +457,14 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
+    init.qcom.usb.sh \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.qcom.power.rc \
     init.qcom.rc \
+    init.qcom.usb.rc \
     init.qti.ufs.rc \
     init.recovery.qcom.rc \
     init.stnfc.rc \
