@@ -18,7 +18,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-
+BLISS_BUILDTYPE := OFFICIAL
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_chime
 PRODUCT_DEVICE := chime

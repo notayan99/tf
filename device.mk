@@ -26,7 +26,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     hardware/google/interfaces \
     hardware/google/pixel \
-    vendor/qcom/opensource/usb/etc
+    vendor/qcom/opensource/usb/etc \
     hardware/xiaomi
 
 # Flatten APEXs for performance
