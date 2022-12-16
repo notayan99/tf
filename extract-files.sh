@@ -64,6 +64,9 @@ function blob_fixup() {
         vendor/lib64/camera/components/com.qti.node.mialgocontrol.so)
             "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/lib64/camera/components/com.mi.node.superlowlightraw.so)
+            "${PATCHELF}" --add-needed "libweakcount_shim.so" "${2}"
+	    ;;
     esac
 }
 

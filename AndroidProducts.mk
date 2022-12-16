@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_chime.mk
+    $(LOCAL_DIR)/awaken_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_chime-user \
-    bliss_chime-userdebug \
-    bliss_chime-eng
+    awaken_chime-user \
+    awaken_chime-userdebug \
+    awaken_chime-eng
